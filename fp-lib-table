@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "self-cap-conn")(type "KiCad")(uri "${KIPRJMOD}/self-cap-conn.pretty")(options "")(descr ""))
+)
