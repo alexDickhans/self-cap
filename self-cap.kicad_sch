@@ -3805,12 +3805,44 @@
 		(uuid "0df70a0e-d75a-4d48-9aaf-307ef97b4ad0")
 	)
 	(no_connect
+		(at 111.76 50.8)
+		(uuid "5627d7a5-6597-4ba1-b23b-ef42e2e48a66")
+	)
+	(no_connect
+		(at 81.28 50.8)
+		(uuid "7d97fe16-2ee7-4a7f-9770-fe870c4b1ff4")
+	)
+	(no_connect
+		(at 111.76 55.88)
+		(uuid "9b330fab-88c7-4188-83b1-bc717c3634c0")
+	)
+	(no_connect
+		(at 81.28 55.88)
+		(uuid "9db7dde2-9c04-466d-a959-47b366e69046")
+	)
+	(no_connect
 		(at 111.76 33.02)
 		(uuid "a821d5da-7f92-42e0-ad93-ec2119b863cd")
 	)
 	(no_connect
+		(at 81.28 53.34)
+		(uuid "b7152ada-a565-470c-a96f-f6b89fd693b8")
+	)
+	(no_connect
+		(at 111.76 43.18)
+		(uuid "c6b44675-379c-475d-8035-52b00f9ed82b")
+	)
+	(no_connect
 		(at 111.76 30.48)
 		(uuid "e317936f-845c-466e-8fc3-a65e18379481")
+	)
+	(no_connect
+		(at 111.76 58.42)
+		(uuid "effd3249-5c2d-4f90-80f3-cb0b1e96ce9b")
+	)
+	(no_connect
+		(at 81.28 35.56)
+		(uuid "fdca0edf-5953-4f94-b3e9-4a3ecba8d130")
 	)
 	(bus_entry
 		(at 62.23 35.56)
@@ -4307,7 +4339,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 143.51) (xy 156.21 146.05)
+			(xy 119.38 45.72) (xy 121.92 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4647,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 135.89) (xy 156.21 138.43)
+			(xy 111.76 45.72) (xy 114.3 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5147,7 +5179,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 153.67) (xy 156.21 156.21)
+			(xy 129.54 45.72) (xy 132.08 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5986,7 +6018,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 156.21 0)
+		(at 132.08 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5995,7 +6027,7 @@
 		(fields_autoplaced yes)
 		(uuid "240d7e5c-29d0-4148-a488-d339460aa2ff")
 		(property "Reference" "#PWR020"
-			(at 156.21 162.56 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 161.29 0)
+			(at 137.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 156.21 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 156.21 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 156.21 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,16 +6084,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 156.21 140.97 0)
+		(at 116.84 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24b7eae1-e9ed-4232-a3d0-91f4ece1c99e")
 		(property "Reference" "R12"
-			(at 158.75 139.6999 0)
+			(at 118.872 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6101,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 158.75 142.2399 0)
+			(at 118.618 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6110,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 156.21 140.97 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 140.97 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6128,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 156.21 140.97 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6137,7 @@
 			)
 		)
 		(property "LCSC Part #" "C23138"
-			(at 156.21 140.97 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,16 +6583,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 156.21 149.86 90)
+		(at 125.73 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b8ef360-d7e4-48d6-b704-88ef6ad97f39")
 		(property "Reference" "D2"
-			(at 160.02 150.1774 90)
+			(at 123.698 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6600,7 @@
 			)
 		)
 		(property "Value" "STAT"
-			(at 160.02 152.7174 90)
+			(at 123.444 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6609,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 156.21 149.86 0)
+			(at 125.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 149.86 0)
+			(at 125.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6627,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 156.21 149.86 0)
+			(at 125.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,7 +6636,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 149.86 0)
+			(at 125.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6645,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
-			(at 156.21 149.86 90)
+			(at 125.73 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,72 +8037,6 @@
 			(project ""
 				(path "/8352b35c-ef9c-47fc-a071-82705c05546f"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 156.21 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3146ed0-da09-4411-805d-6198ac41530c")
-		(property "Reference" "#PWR021"
-			(at 156.21 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 156.21 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbb13c32-8a10-48c3-88ca-87168c373fb1")
-		)
-		(instances
-			(project ""
-				(path "/8352b35c-ef9c-47fc-a071-82705c05546f"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)

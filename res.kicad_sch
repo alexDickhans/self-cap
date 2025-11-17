@@ -717,6 +717,36 @@
 		)
 		(uuid "f8f4df35-e9ca-4550-9501-4a7915e31f5b")
 	)
+	(label "4m_parallel"
+		(at 124.46 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32f8797c-d717-4a21-b7e6-04fd1fe305e8")
+	)
+	(label "10m_con"
+		(at 115.57 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6f4fd72-c950-4983-97be-a23ed00bdb76")
+	)
+	(label "2m_parallel"
+		(at 132.08 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8105692-3d65-47a0-ae2b-136287657738")
+	)
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 124.46 92.71 270)

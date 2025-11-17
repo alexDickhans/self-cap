@@ -58,44 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|75500000|90850000|16557aa7-6baf-40c7-96bb-02abfce39dd1|bdf21ffd-ded8-4ba8-bcea-c36c9d490801",
-          ""
-        ],
-        [
-          "clearance|77250000|92150000|53f569dc-297a-4da1-be4d-94b2bcb37e54|f9ee28f0-2f8e-4d78-8032-9507f1206210",
-          ""
-        ],
-        [
-          "clearance|77950000|92150000|4c72f5f8-3671-4bd7-bcb2-a5727be04c21|f9ee28f0-2f8e-4d78-8032-9507f1206210",
-          ""
-        ],
-        [
-          "clearance|82700000|90850000|0d895f38-c4ff-451a-b0a8-8ee5f0d12932|9a5b0b17-b8f1-4ea2-824e-bcd3d9d6894c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|109500000|84300000|64e2c90a-0d1c-4e6f-bbd8-108dbf333bfa|f2be9ac7-8ac7-48be-89c5-5ba3f69e95a5",
-          ""
-        ],
-        [
-          "courtyards_overlap|83305000|83590000|8534b0c5-0de3-4a27-bf40-50369ba3b6e7|e22f4fcd-5262-4391-9cf5-ddf522c4a51f",
-          ""
-        ],
-        [
-          "courtyards_overlap|85905000|83905000|3a381d96-e853-41b3-8393-d0dcc621c7ef|e22f4fcd-5262-4391-9cf5-ddf522c4a51f",
-          ""
-        ],
-        [
-          "items_not_allowed|83300000|83585000|8534b0c5-0de3-4a27-bf40-50369ba3b6e7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|94100000|83900000|3a381d96-e853-41b3-8393-d0dcc621c7ef|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -191,7 +154,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +165,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -213,7 +176,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -261,9 +224,17 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -530,14 +501,14 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.6,
+        "clearance": 0.2,
         "name": "Capacitive",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(70, 255, 28)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.25
+        "via_diameter": 0.3,
+        "via_drill": 0.15
       }
     ],
     "meta": {
