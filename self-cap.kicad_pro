@@ -657,34 +657,6 @@
     [
       "8352b35c-ef9c-47fc-a071-82705c05546f",
       "Root"
-    ],
-    [
-      "6802c693-fd32-4ef8-be15-2b356e42fe25",
-      "Resistor Circuit"
-    ],
-    [
-      "92268f28-4917-40f2-b381-a57cedea9c6c",
-      "Resistor Circuit1"
-    ],
-    [
-      "7374dd92-2e1f-4cb3-ae28-9ec1dda69209",
-      "Resistor Circuit2"
-    ],
-    [
-      "426348d7-685b-4186-9d38-ecc65e0b16b8",
-      "Resistor Circuit3"
-    ],
-    [
-      "9e14539c-a2b8-4242-834c-93bf6362cfd5",
-      "Resistor Circuit4"
-    ],
-    [
-      "07897d51-0227-443b-89e6-5aaceb91df5e",
-      "Resistor Circuit5"
-    ],
-    [
-      "6c5d5459-d2b3-44f0-b99b-63c06820a5b2",
-      "Resistor Circuit6"
     ]
   ],
   "text_variables": {}
