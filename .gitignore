@@ -1,0 +1,15 @@
+# KiCad local state and autosaves
+fp-info-cache
+*.kicad_prl
+*-backups/
+~*.lck
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.bak
+*.000
+
+# OS junk
+.DS_Store
+__MACOSX/
